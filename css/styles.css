@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --primary-black-color: #212121;
+  --primary-text-color: #757575;
+  --primary-white-color: #ffffff;
+
+  --accent-color: #2196f3;
+  --background-black: #21303a;
+  --background-gray: #f5f4fa;
+  --button-filter: #f5f4fa;
+  --button-primary-hover: #188ce8;
+  --logo-black: #000000;
+  --text-white-opacity: #ffffff99;
+
+  --container-padding: calc((100% - 1200px) / 2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.button-primary{
+  font-size: 16px;
+  background-color: var(--accent-color) ;
+  color: var(--primary-white-color);
+  font-size: 16px;
+  font-weight: 700;
+
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  padding: 10px 20px;
+}
+.button-primary:hover{
+  background-color: var(--button-primary-hover) ;
+
+}
+
+.container{
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header section  */
+.logo {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo-black {
+  color: var(--logo-black);
+}
+.logo-white {
+  color: var(--primary-white-color);
+}
+
+.section{
+  padding: 94px 0;
+}
+.section > h2{
+  color: var(--primary-black-color);
+  font-size: 32px;
+  font-weight: 700px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.no-top-pading{
+  padding-top: 0;
+}
+a{
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 var(--container-padding);
+}
+
+header nav{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+header nav .logo{
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+header nav .navbar_menu{
+  display: flex;
+  list-style: none;
+  gap: 80px;
+}
+
+header nav .navbar_menu .page {
+  color: var(--primary-black-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navbar_info{
+  display: flex;
+  list-style: none;
+  gap: 80px;
+}
+
+.navbar_info .item {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.navbar_menu .page:hover,
+.navbar_menu .page:focus,
+.navbar_menu .page.current,
+.navbar_info .item:hover,
+.navbar_info .item:focus {
+  color: var(--accent-color);
+}
+/* baner index section  */
+.banner-index{
+  background-color: var(--primary-black-color) ;
+  padding: 200px var(--container-padding);
+  text-align: center;
+}
+.banner-index .baner-title{
+  width: 500px;
+  margin: 20px auto;
+  color: var(--primary-white-color);
+  font-size: 44px;
+  text-transform: capitalize;
+}
+
+/* features section */
+.features{
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.features li{
+  list-style: none;
+  width: 240px;
+}
+
+.features li .features_title{
+  height: 50px;
+  text-transform: uppercase;
+  color: var(--primary-black-color);
+}
+
+/* what we do */
+.what_do_we_do_section .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.what_do_we_do_section .container ul li{
+  list-style: none;
+  width: 360px;
+}
+
+/* our team section */
+.our_team{
+  background-color: var(--background-gray);
+}
+
+.team_cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.card{
+  background-color: var(--primary-white-color);
+  text-align: center;
+}
+.card h3{
+  margin: 20px 0 10px 0;
+}
+.card p{
+  margin-bottom: 30px;
+}
+
+/* Portfolio page  */
+.portfolio .menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 50px;
+  list-style: none;
+}
+
+.portfolio .menu li button {
+  border: none;
+  outline: none;
+  color: var(--primary-black-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  padding: 10px 30px;
+
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.portfolio .menu li button:hover,
+.portfolio .menu li button.current{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.list_cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.portfolio .cards{
+  margin-bottom: 20px; 
+  width: 360px;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  display: flex;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.2);
+}
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.portfolio .cards  a h2{
+  color: var(--primary-black-color);
+  padding: 15px;
+}
+
+.portfolio .cards a p{
+  color: var(--primary-text-color);
+  font-size: 16px;
+  padding: 15px;
+}
+
+.portfolio .cards>.space_of h2{
+  /* line-height:0.7; */
+  
+  padding: 13px;
+}
+
+/* footer section  */
+footer {
+  padding: 94px var(--container-padding);
+  background-color: var(--background-black);
+}
+address ul {
+  list-style: none;
+}
+address .contact {
+  display: block;
+  color: var(--text-white-opacity);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  padding: 5px 0;
+}
+address .contact:hover {
+  color: var(--primary-white-color);
+}
