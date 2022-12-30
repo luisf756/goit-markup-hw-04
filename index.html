@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./nnn.js">
     <title>WebStudio</title>
 </head>
 <body>
@@ -19,8 +20,17 @@
             </ul>
         </nav>    
             <ul class="navbar_info list">
-                <li><a class="item">info@devstudio.com</a></li>
-                <li><a class="item">+52 55 5529 6000</a></li>
+                <li><a class="item">
+                    <svg class="icon email" role="img">
+                        <use href="./sprite-sheet.svg#linkedin"></use>
+                    </svg>
+                    info@devstudio.com</a></li>
+
+                <li><a class="item" href="#">
+                        <svg class="icon smartphone">
+                          <use href="./images/SVG/sprite-sheet.svg#smartphone"></use>
+                        </svg>
+                    +52 55 5529 6000</a></li>
             </ul>     
     </header>
     
@@ -28,26 +38,48 @@
         <section class="banner-index">
             <h1 class="baner-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
             <button class="button-primary" type="button">Solicite nuestros servicios</button>
+            <div class="overlay"></div>
         </section>
         
         <section class="section features_section">
             <div class="container">
                 <ul class="features list">
                     <li>
+                        <div>
+                            <svg class="icon-benefit">
+                              <use href="./images/SVG/sprite-sheet.svg#antena"></use>
+                            </svg>
+                          </div>
+
                         <h3 class="features_title">ATENCION A LOS DETALLES</h3>
                         <p class="description">Nos adentramos en todos los detalles y procesos de su negocio, para así desarrollar una solución a su medida.</p>
                     </li>
                     <li>
+                        <div>
+                            <svg class="icon-benefit">
+                              <use href="./images/SVG/sprite-sheet.svg#clock"></use>
+                            </svg>
+                          </div>
                         <h3 class="features_title">PUNTUALIDAD</h3>
                         <p class="description">Con nosotros, usted puede sentirse seguro y protegido. Un principio importante de la empresa: respetar su tiempo y respetar los plazos acordados.</p>
                     </li>
     
                     <li>
+                        <div>
+                            <svg class="icon-benefit">
+                              <use href="./images/SVG/sprite-sheet.svg#diagram"></use>
+                            </svg>
+                          </div>
                         <h3 class="features_title">PLANIFICACIÓN</h3>
                         <p class="description">Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones.</p>
                     </li>
     
                     <li>
+                        <div>
+                            <svg class="icon-benefit">
+                              <use href="./images/SVG/sprite-sheet.svg#astronaut"></use>
+                            </svg>
+                          </div>
                         <h3 class="features_title">TECNOLOGÍA MODERNA</h3>
                         <p class="description">Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales.</p>
                     </li>
@@ -75,7 +107,38 @@
                         <img src="images/team1.jpg" width="270" alt="4 años de experiencia">
                         <h4>Andrés cubo</h4>
                         <p>Diseñador de Productos</p>
-                        <aside></aside>
+                        <aside>
+                            <ul>
+                                <li>
+                                  <a href="#">
+                                    <svg class="icon">
+                                      <use href="./images/SVG/sprite-sheet.svg#instagram"></use>
+                                    </svg>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#">
+                                    <svg class="icon">
+                                      <use href="./images/SVG/sprite-sheet.svg#twitter"></use>
+                                    </svg>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#">
+                                    <svg class="icon">
+                                      <use href="./images/SVG/sprite-sheet.svg#facebook"></use>
+                                    </svg>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#">
+                                    <svg class="icon">
+                                      <use href="./images/SVG/sprite-sheet.svg#linkedin"></use>
+                                    </svg>
+                                  </a>
+                                </li>
+                              </ul>
+                        </aside>
                     </figure>
                     <!-- card2 -->
                     <figure class="card">
@@ -99,9 +162,49 @@
                         <aside></aside>
                     </figure>
                 </section>
-            </div>
-            
+            </div>    
         </section>
+
+        <section class="section customers">
+            <div class="container">
+              <h2>Regular Custumers</h2>
+      
+              <ul>
+                <li>
+                  <svg class="icon-customer " width="41" height="47">
+                    <use href="./images/SVG/sprite-sheet.svg#company-1"></use>
+                  </svg>
+                </li>
+      
+                <li>
+                  <svg class="icon-customer company" width="40" height="52">
+                    <use href="./images/SVG/sprite-sheet.svg#company-2"></use>
+                  </svg>
+                </li>
+      
+                <li>
+                  <svg class="icon-customer company" width="44" height="41">
+                    <use href="./images/SVG/sprite-sheet.svg#company-3"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="icon-customer company" width="85" height="41">
+                    <use href="./images/SVG/sprite-sheet.svg#company-4"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="icon-customer company" width="63" height="46">
+                    <use href="./images/SVG/sprite-sheet.svg#company-5"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg class="icon-customer company" width="94" height="44">
+                    <use href="./images/SVG/sprite-sheet.svg#company-6"></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </section>        
     </main>
 
     <footer>

@@ -8,8 +8,16 @@
 
   --accent-color: #2196f3;
   --background-black: #21303a;
-  --background-gray: #f5f4fa;
-  --button-filter: #f5f4fa;
+  --background-black-2: #2f303a;
+  --background-black-240Perc: hsla(235, 10%, 21%, 0.4);
+
+  --gray-1: #f5f4fa;
+  --gray-2: #afb1b8;
+
+  --primary-white-60Perc: hsla(0, 0%, 100%, 0.6);
+  --primary-white-10Perc: hsla(0, 0%, 100%, 0.1);
+
+  
   --button-primary-hover: #188ce8;
   --logo-black: #000000;
   --text-white-opacity: #ffffff99;
