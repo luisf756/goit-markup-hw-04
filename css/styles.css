@@ -297,6 +297,34 @@ header .container .navbar_info li .item:hover .icon {
   margin-bottom: 20px;
 }
 
+.our_team .container .team-cards .card ul li{
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 25px;
+}
+.our_team .container .team-cards .card ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+}
+
+.our_team .container .team-cards ul li a .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-text-color);
+}
+
+.our_team .container .team-cards ul li:hover a {
+  background-color: var(--accent-color);
+}
+.our_team .container .team-cards ul li:hover a .icon {
+  fill: var(--primary-white-color);
+
 /* Portfolio page  */
 .portfolio .menu{
   display: flex;
