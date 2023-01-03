@@ -287,7 +287,7 @@ header .container .navbar_info li .item:hover .icon {
 .card p{
   margin-bottom: 30px;
 }
-.our_team .container .team-cards .card{
+.our_team .container .team-card .card{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -297,13 +297,13 @@ header .container .navbar_info li .item:hover .icon {
   margin-bottom: 20px;
 }
 
-.our_team .container .team-cards .card ul li{
+.our_team .container .team-cards aside ul li{
   display: block;
   width: 35px;
   height: 35px;
   border-radius: 25px;
 }
-.our_team .container .team-cards .card ul li a{
+.our_team .container .team-cards aside ul li a{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,18 +313,18 @@ header .container .navbar_info li .item:hover .icon {
   width: 35px;
 }
 
-.our_team .container .team-cards ul li a .icon {
+.our_team .container .team-cards aside ul li a .icon {
   width: 20px;
   height: 20px;
   fill: var(--primary-text-color);
 }
 
-.our_team .container .team-cards ul li:hover a {
+.our_team .container .team-cards aside ul li:hover a {
   background-color: var(--accent-color);
 }
-.our_team .container .team-cards ul li:hover a .icon {
+.our_team .container .team-cards aside ul li:hover a .icon {
   fill: var(--primary-white-color);
-
+}
 /* Portfolio page  */
 .portfolio .menu{
   display: flex;
