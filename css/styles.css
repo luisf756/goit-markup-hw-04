@@ -297,12 +297,7 @@ header .container .navbar_info li .item:hover .icon {
   margin-bottom: 20px;
 }
 
-.our_team ul li{
-  display: block;
-  width: 35px;
-  height: 35px;
-  border-radius: 25px;
-}
+
 
 .our_team .container  ul li a{
   display: flex;
