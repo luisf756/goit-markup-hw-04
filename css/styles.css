@@ -304,6 +304,29 @@ header .container .navbar_info li .item:hover .icon {
   border-radius: 25px;
 }
 
+.our_team .container  ul li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+}
+
+.our_team .container ul li a .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-text-color);
+}
+
+.our_team .container ul li:hover a {
+  background-color: var(--accent-color);
+}
+.our_team .container ul li:hover a .icon {
+  fill: var(--primary-white-color);
+}
+
 
 
 
